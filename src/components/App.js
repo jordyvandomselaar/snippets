@@ -1,7 +1,10 @@
 import React from "react";
+import Layout from "./Layout";
 
 const App = () => (
-  <p>Hi!</p>
+  <Layout>
+    <p>hi!</p>
+  </Layout>
 );
 
 export default App;
